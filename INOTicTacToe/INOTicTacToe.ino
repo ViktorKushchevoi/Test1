@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <ArduinoJson.h>
 
+
 const int BOARD_SIZE = 3;
 char board[BOARD_SIZE][BOARD_SIZE];
 char currentPlayer = 'X';
